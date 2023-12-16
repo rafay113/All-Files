@@ -1,0 +1,228 @@
+/* h1{
+    text-align: center;
+    font-size: 80px;
+    letter-spacing: 10px;
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-transform: capitalize
+    opacity: 0.9; 
+    text-shadow: 20px 1px 10px rgb(11, 12, 11);
+}
+a{
+    text-decoration: none;
+    color: rgb(130, 9, 243);
+}
+
+input:hover{
+    background-color: rgb(176, 182, 182);
+}
+input:focus{
+    background-color: rgb(133, 250, 127);
+}
+button:active{
+    font-weight: bold;
+ color:rgb(240, 248, 248) ;
+    background-color: rgb(53, 60, 238);
+}
+
+
+img{
+    width: 100%;
+}
+
+.main{
+    text-align:justify;
+    background-color: rgb(90, 229, 239);    
+    border: 2px solid rgb(16, 15, 15); 
+   min-width: 100px;
+   max-width: 1000px;
+   height: 500px;
+    overflow: scroll;
+}
+.one{
+    border: 10px solid blue;
+    font-size: 100px;
+    
+
+}
+p{
+    border: 10px solid blue;
+    background-color: aqua;
+    padding: 200px;
+    margin: 100px;
+}
+
+
+
+ */
+
+
+
+
+
+
+
+/* 
+*{
+    color: red;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+table{
+    min-width: 600px;
+    margin: 10px auto;
+    border-spacing: 5px 10px;
+    
+}
+
+h1:hover{
+    background-color: black;
+
+}
+
+ 
+tr,th,td.even{
+    background-color: black;
+} 
+
+
+tr:hover{
+    background-color: blue;
+}
+
+
+th,td{
+    padding: 10px;
+    border: 1px solid rgb(13, 16, 14) ;
+    
+} */
+
+
+
+
+
+
+
+
+
+/* 
+
+
+h1{
+    width: 600px;
+    border: 1px solid black;
+    color: red;
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+form{
+    min-width: 10px;    
+}
+
+
+input{
+    padding: 8px;
+    margin: 5px auto;
+    font-size: 1em;
+    border: 2px solid gray;
+}
+
+input.email{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/006/417/311/original/outline-email-icon-isolated-on-grey-background-open-envelope-pictogram-line-mail-symbol-for-website-design-mobile-application-ui-illustration-eps10-free-vector.jpg");
+    background-repeat: no-repeat;
+    background-size: 40px;
+    padding: 10px 10px 10px 40px;
+}
+
+input.password{
+    background-image: url("https://i.etsystatic.com/36262552/r/il/0b04a5/4248120438/il_fullxfull.4248120438_mgc6.jpg");
+    background-repeat: no-repeat; 
+    background-size: 45px; 
+    padding: 10px 10px 10px 45px;
+    border: 2px solid gray;
+}
+
+
+input:hover{
+    background-color: white;
+}
+
+input:focus{
+    background-color:white;
+    border-color: red;
+}
+
+
+button:active{
+    background-color: red;
+}
+
+button{
+    background-color: blue;
+    border: none;
+    font-weight: bold;
+    border-radius:10px;
+    min-width: 100px;
+    color: whitesmoke;
+    padding: 8px;
+}
+
+
+fieldset{
+    border-color: rgb(4, 4, 5);
+    border-radius: 10px;
+    border-collapse: collapse;
+    width: 400px;
+    height:350px ;
+}
+
+legend{    
+    font-size: 28px;
+    background-color: rgb(1, 1, 1);
+    color:red ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+.first{
+    background-color: red;
+    width:40px ;
+    height: 50PX;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

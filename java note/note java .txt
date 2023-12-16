@@ -1,0 +1,321 @@
+                             CHAP:-9
+
+                          PROMPT:- TAGE.
+
+1:-  what is your name ya hamara pass prompt ma heading ban ka ay ga or
+your name is ya hamara pass placeholder ban ka ayga hamara pop up ma prompt 
+ka tage is liye use hota hai.
+
+
+var a = prompt("what is your number", "your num is" );
+alert(a)
+
+                   
+
+2:-  ya tage hamara popup ma numaric value lata hai jasa ya tage ma mana 
+     10 likha hai to or agr ma popup ma 5 search karta ho to mara pass 
+     value 15 aygi matlb 10 ka bad sa value start hogi or ya value 
+     show hamara pass console  ma hogi.
+
+ 
+var a = +prompt("what is your value","your value is" );
+var b = a + 10;
+console.log("the output is",+""+b)
+
+
+3:-  ya tage hamara popup ma numaric value lata hai jasa ya tage ma mana 
+     5 likha hai to or agr ma popup ma 5 search karta ho to mara pass 
+     value 10 aygi matlb 5 ka bad sa value start hogi or ya value 
+     show hamara pass alert ma hogi.
+ 
+var a = prompt("what is your value","your value is" );
+var b = a + 5;
+alert(b)
+
+
+4:-  ya tage sa direct screen pa show hoga prompt hamara.
+
+var a = prompt("what is your value","your value is" );
+var b = a + 5;
+doucument.write("the output is" + " " + b);
+
+
+
+     5:- prompt ma ya tariqa chahe to istamal kar sakta hain.
+ 
+                var a = "what is your value";
+                var b = " your value";
+                var c = +prompt(a,b);
+                var d = c + 10;
+                alert(d);      
+
+
+
+
+                      CHAP:-10 ' 11 ' 12 ' 13
+ 
+                 if...else and else if statement:-
+
+
+1:- 14 ka barabar value hoi to hamara pass alert show hoga 
+    your age is equal.
+    agr hamna 13 likha to hamara pass alert show hoga  
+    your age is less.
+    or agr hamna zada value likhi jasa 20 to hamara pass alert show hoga
+    your age is more.
+
+       
+var age = +prompt("enter your age");
+if(age ==14){
+    alert("your age is equal")
+}
+else if(age < 14){
+     alert("your age is less")
+} 
+else{
+    alert("your age is more")
+}
+
+
+2:-  agr ham popup ma age 18 ya us sa zada likha ga or gender ma sirf 
+     male hi likha ga to hamara pass alert chalaga 
+     you are allowed to ride.
+
+     agr gender ma female likha ya age ma age kam likhi to hamara pass 
+     alert chala ga
+     you are not allowed.    
+  
+     && isa and kehta hain agr ya lagain ga to dono tage sahi fill karna 
+     hoga || isa or kehta hain agr ya lagain ga to koi ak sahi fil karna 
+     hoga 
+      
+var age = +prompt("Enter your age")
+var gender = prompt("Enter your gender")
+if(age > 18 && gender == "male"){
+    alert("you are allowed to ride")
+}
+else{
+    alert("you are not allowed")
+} 
+
+
+3:-  == equalto sirf value ko check karta hai tabhi hamara answer hoga true.
+     === equalto type ko bhi check karta hai agr === kia to hamara 
+     answer hoga false. 
+
+
+var a = "5";
+if(a == 5){
+    alert("true")
+}
+else{
+    alert("false")
+}
+
+
+
+                      CHAP:- 14
+  
+                 if statements nested:-
+                         
+            
+
+
+
+
+
+
+
+
+
+
+
+
+                      CHAP:- 15
+  
+                       Arrays:-
+                         
+
+1:- Array [] braket ko kehta hain jis ma 10 name bhi ak sath a sakta
+    hain  
+    Array ki counting 0 sa start hoti hai jasa mana alert ma 0 likha hai
+    to apple show hoga 1 likho ga banana show hoga 2 pa graps.  
+    Or alert(fruits[0]) ma bhi ya braket lazmi hain. 
+    Array ka braket ka undar ham number likh sakta hai. 
+     
+var fruits = ["apple","banana","graps"] 
+alert(fruits[0])                    
+
+
+                       CHAP:-16
+              
+                        Arrays
+               Adding and removing elements:-     
+
+
+1:- is Array ka tage sa pora name ak sath likha howa ayga.
+    alert( names)q ka alert ma names likha howa hai.
+    popup pa rafay sheikh show hoga.
+    basically ya tage name add karta hai.  
+    
+
+var names = []
+
+names[0] = "rafay"
+names[1] = "sheikh"
+alert( names)
+
+
+2:- Arrays remove end wala name remove kar da ga array ka.
+    student.pop() 
+
+3:- Arrays add end ma add kar da ga name ko.
+    students.push("sheikh")    
+
+    ya tage use asa hota hai.
+
+    var students = ["rafay","sheikh","ho"]
+    student.pop()
+    alert(students)  
+      
+                          
+                      CHAP:-17
+
+                       Arrays
+         Removing, inserting, and extracting elements:-
+
+
+
+1:- start sa remove karta hai ya tage. 
+          student.shift()
+    
+    start sa koi bhi name add karta hai ya tage.
+          student.unshift()
+ 
+        ya tage use asa hota hai.
+
+    var students = ["sheikh"]
+
+    student.unshift("rafay")
+          alert(students)  
+      
+
+                 
+                      CHAP:-18
+                     For Loops:-
+
+
+1:- for loop hamara code ko repeat karta hai 
+    jasa alert hama 5 bar chalana parta hai to hama
+    5 bar code ma alert likhna hoga ga for loop 
+    ka zarya ham ak bar code ma alert likha ga or 5 time
+    alert chala ga.
+    for(variable; condition; increament/decreament){
+     alert("");             
+}			
+
+for(var i = 0; i < 5; i++){
+   alert("hello world!");
+}
+
+
+2:- for loop ka zarya ham table bhi bana sakta hai.
+
+for(var i = 1;  i <= 10;   i++){
+   document.write("5" + "x" + i + "=" + 5*i + "<br>")
+}
+
+3:- for loop ka zarya ham array ko bhi handle kar sakta hain 
+    array braket ka under jitna bhi names hota hain usa .length 
+    kahta hai or for loop ka zarya ham un sab names ko ak sath 
+    print karwa sakta hain jasa ya code ma kara hai.
+
+
+var names = ["rafay","sajid","rabeet"];
+ 
+for(var i = 0;  i< names.length; i++){
+   console.log(names[i])
+}
+
+
+
+                      CHAP:-19
+                      for loops
+               Flags, Booleans, array length,
+                  and loopus interruptus:-
+
+
+                 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                           CHAP:-20
+                       for loops nested:-
+ 
+1:-  is tage ka zarya firstnames ka sath lastnames
+     ma jasa hamara pass mango hai to mango har firstnames
+     ka sath ayga console.log ma 
+     example:- apple mango 
+               banana mango
+               graps mango
+
+
+var firstnames = ["apple","banana","graps"]
+var lastnames = ["mango"]
+
+for(var i =0; i< firstnames.length; i++){
+   for(var x =0; x< lastnames.length; x++){
+      console.log(firstnames[i] + "" + lastnames[x])
+   }
+}
+
+2:- is tage ka zarya ham star print karwa sakta hain jasa mana  
+    is tage ma document.write ka undar star triangle ka shap ma
+    print karway howa hain or condition ka undar ham apni marzi  
+    sa star likh sakta hain
+
+for(var a = 0; a < 55; a++){
+   for(var i =0; i < a; i++){
+    document.write("*")
+   }
+   document.write("<br>")
+     
+}
+
+3:-
+
+
+
+
+
+
+
+
+
+
+                            CHAP:-21
+                          Changing case:-
+      
+              
+
+
+
+
+  
+
+
+             
+
+
+

@@ -1,0 +1,56 @@
+                                               FLEX BOX:-  TAGE.
+
+
+example:1
+
+          display:flex;   sa flex apply hota hai.
+  
+          flex-direction:row;   sa ak line ma ata hain paragraph.
+
+          justify content:space around;   sa sab paragraph ka beach ma space ata hai.  
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.one,.two,.three{
+    border: 2px solid black;TA
+    width:250px;
+}
+
+
+
+example:2
+
+         ya width ka liye hai tage ham cha hai to use kar sakta hain 
+         lakin behtar hai ka simply width da dain ham.  
+
+.one{
+    flex: 1;
+}
+.two{
+    flex: 3;
+}
+.three{
+    flex: 1;
+}
+
+
+example:3 
+
+           ya tage mobile screen ka liye use hota hai.
+
+           Is tage ka zarya ham apni website responsive
+           bana sakta hain.
+            
+           Agar ham flex box ma ya tage laga dain to phr 
+           media query laga na  ki zarorat nahi hai   
+               
+
+   flex-wrap: wrap;
+ 
+
+

@@ -1,0 +1,126 @@
+                           *	Multiplication
+
+                           /	Division
+
+                           
+                           +    add
+
+                           -    subs
+
+
+
+1:-
+
+var b = 20; 
+var d = "rafay";
+var e = d+b;
+alert(e)
+
+RESULT:-
+        rafay20 
+
+              jab ham variable ma name likhta hai to invarties komass laga na zarori hai.
+              jasa ya tage ma d ma name hai to "" laga hain. 
+              or alert chalana lazmi hai.   
+
+
+
+2:-
+
+var a = 3;
+var b = 5;
+var c = 7;
+var d = (b - a) * c;
+alert(d);
+ 
+Result:-
+          
+          14 show hoga  q ka 
+          (b - a) braket ka undar hai
+
+
+
+
+3:-
+
+var a = 3;
+var b = 5;
+var c = 7;
+var d = b - a * c;
+alert(d);
+
+Result:-           
+          agar braket hata dain to hamara pass -16
+          show hoga      
+                
+
+
+
+
+
+
+4:-
+
+var a = 5;
+var b = a++;
+alert(b) 
+ 
+Result:-    
+            5
+
+             agar ham phala a++ kara ga to to value 5 hi aygi 
+            agar ham phala ++a kara ga to value 6 ho jaygi 
+                              
+a++ = +1      
+++a = +1   
+
+
+    
+        agar ham phala b-- kara ga to value 5 hi ay gi
+        or agar ham phala --b kara to value 4 ay gi       
+            
+a-- = -1
+--a = -1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+body{
+    background-image:url(img/photo-1443527216320-7e744084f5a7-1\ \(1\).jpg);
+    background-attachment:fixed;
+background-size:cover;
+background-position:center;
+}
+h1{
+    color: aliceblue;
+
+}
+p{
+    color: aliceblue;
+}
